@@ -249,6 +249,7 @@ var loadtasks = function(){
   }
 }
 // Create a new task
+loadtasks()
 formEl.addEventListener("submit", taskFormHandler);
 
 // for edit and delete buttons
